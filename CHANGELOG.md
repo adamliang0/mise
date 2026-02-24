@@ -1,5 +1,47 @@
 # Changelog
 
+## [2026.2.20](https://github.com/jdx/mise/compare/v2026.2.19..v2026.2.20) - 2026-02-24
+
+### 🚀 Features
+
+- **(task)** enforce per-task timeout configuration by @tvararu in [#8250](https://github.com/jdx/mise/pull/8250)
+- **(vsix)** added vsix archives to http backend by @sosumappu in [#8306](https://github.com/jdx/mise/pull/8306)
+
+### 🐛 Bug Fixes
+
+- **(env)** include watch_files in fast-path early exit check by @jdx in [#8317](https://github.com/jdx/mise/pull/8317)
+- **(env)** clear fish completions when setting/unsetting shell aliases by @jdx in [#8324](https://github.com/jdx/mise/pull/8324)
+- **(lockfile)** prevent lockfile writes when --locked is set by @jdx in [#8308](https://github.com/jdx/mise/pull/8308)
+- **(regal)** Update package location by @charlieegan3 in [#8315](https://github.com/jdx/mise/pull/8315)
+- **(release)** strip markdown heading prefix from communique release title by @jdx in [#8303](https://github.com/jdx/mise/pull/8303)
+
+### 📚 Documentation
+
+- Remove incorrect oh-my-zsh plugin ordering comment by @bvosk in [#8323](https://github.com/jdx/mise/pull/8323)
+
+### 📦 Registry
+
+- add `oxfmt` by @taoufik07 in [#8316](https://github.com/jdx/mise/pull/8316)
+
+### New Contributors
+
+- @tvararu made their first contribution in [#8250](https://github.com/jdx/mise/pull/8250)
+- @bvosk made their first contribution in [#8323](https://github.com/jdx/mise/pull/8323)
+- @taoufik07 made their first contribution in [#8316](https://github.com/jdx/mise/pull/8316)
+- @charlieegan3 made their first contribution in [#8315](https://github.com/jdx/mise/pull/8315)
+- @sosumappu made their first contribution in [#8306](https://github.com/jdx/mise/pull/8306)
+
+### 📦 Aqua Registry Updates
+
+#### New Packages (2)
+
+- [`Tyrrrz/FFmpegBin`](https://github.com/Tyrrrz/FFmpegBin)
+- [`elixir-lang/expert`](https://github.com/elixir-lang/expert)
+
+#### Updated Packages (1)
+
+- [`kunobi-ninja/kunobi-releases`](https://github.com/kunobi-ninja/kunobi-releases)
+
 ## [2026.2.19](https://github.com/jdx/mise/compare/v2026.2.18..v2026.2.19) - 2026-02-22
 
 ### 🐛 Bug Fixes

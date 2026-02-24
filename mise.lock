@@ -65,7 +65,7 @@ version = "1.46.3"
 backend = "cargo:cargo-insta"
 
 [[tools."cargo:cargo-release"]]
-version = "1.0.0"
+version = "1.1.0"
 backend = "cargo:cargo-release"
 
 [[tools."cargo:git-cliff"]]
